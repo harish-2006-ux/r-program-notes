@@ -1,16 +1,14 @@
 # -------------------------------------------
-# Question 18:
-# Create character vector:
-# January
-# February
-# March
-#
-# Check type
-# Find length
-# Extract second element
+# Question 19 (BONUS):
+# Read user's age
+# Convert to numeric
+# Calculate age in days
+# Display result
 # -------------------------------------------
 
-month <- c("january","february","march")
-class(months)
-length(months)
-month[2]
+age <- readline(prompt = "Enter your age: ")
+
+age <- as.numeric(age)
+days <- age * 365.25
+
+cat("Your age in days is", days)
