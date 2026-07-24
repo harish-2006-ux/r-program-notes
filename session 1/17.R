@@ -1,16 +1,9 @@
 # -------------------------------------------
-# Question 14:
-# Calculate:
-# Round
-# Ceiling
-# Floor
-# Remainder
+# Question 17:
+# Show regular division
+# and integer division
 # -------------------------------------------
-
-round(3.14159,2)
-
-ceiling(5.2)
-
-floor(7.9)
-
-17 %% 5
+a <- 5
+b <- 7
+a/b
+a%%b
