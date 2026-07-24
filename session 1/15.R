@@ -1,16 +1,17 @@
 # -------------------------------------------
-# Question 14:
-# Calculate:
-# Round
-# Ceiling
-# Floor
-# Remainder
+# Question 15:
+# Create sequence:
+# 1 to 20 with step 2
+#
+# Find:
+# Sum
+# Product of first 5 numbers
 # -------------------------------------------
 
-round(3.14159,2)
+sequence <- seq(1,20,by=2)
 
-ceiling(5.2)
+sequence
 
-floor(7.9)
+sum(sequence)
 
-17 %% 5
+prod(sequence[1:5])
